@@ -1,0 +1,51 @@
+.dragon-container {
+    position: relative; 
+    display: inline-block; 
+}
+
+.ssr-text {
+    color: gold;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom: -40px; /* 画像の下にSSRテキストを表示させるための位置調整 */
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*
+.event-notification {
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+*/
+.event-notification {
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.result-text {
+    color: white;
+    font-size: 28px;  
+
+}
+
+
+
+
+/* .event-notification {
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+}*/
